@@ -9,6 +9,7 @@
 body {
   width: 100%;
   height: 100%;
+  font-family: 'Playfair Display', serif;
 }
 
 article {
@@ -20,6 +21,9 @@ a {
   text-decoration: none !important;
 }
 
+img {
+  max-width: 100%;
+}
 
 .contact__card {
   width: 100%;
@@ -31,6 +35,7 @@ a {
 
 
 .contact__card .contact__number {
+  font-family: 'Playfair Display', serif;
   font-size: 1em;
 }
 
@@ -122,4 +127,87 @@ li a:hover {
 
 .burger .blue {
   background: #00098a;
+}
+
+/* second section */
+.second__section {
+  background-image: url('../assets/bg.PNG');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  height: 42rem;
+  position: relative;
+}
+
+.second__section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.second__section-content {
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  z-index: 1030;
+  color: #ffffff;
+}
+
+.second__section-content h2 {
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+}
+
+.second__section-content .btn-secondary {
+  background: #b94c65;
+  border: 1px solid #b94c65;
+  padding: .7rem 3.5rem;
+  border-radius: .6rem;
+  font-family: 'Playfair Display', serif;
+  color: #f8f9fa;
+}
+
+/* third section */
+.third__section-text {
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+}
+
+/* fourth section */
+.fourth__section{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.fourth__section .fourth__section-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.fourth__section-content img {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fourth__section-content h2 {
+  color: #ffffff;
+}
+
+/* FIFTH SECTION */
+.fifth__content {
+  display: ;
+  background: #1999ee;
 }
