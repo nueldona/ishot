@@ -10,6 +10,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: 'Playfair Display', serif;
+  /* overflow: hidden; */
 }
 
 article {
@@ -27,22 +28,24 @@ img {
 
 .contact__card {
   width: 100%;
-  height: 60px;
+  height: 45px;
   background-color: #b94c65;
   color: #ffffff;
-  padding: 1em 1.5em;
+  padding: .6em 1.5em .4em 1.5em;
+  text-align: center;
 }
 
 
 .contact__card .contact__number {
   font-family: 'Playfair Display', serif;
   font-size: 1em;
+  height: 35px;
 }
 
 .contact__number i {
   transform: rotate(-50deg);
   font-size: 1.3em;
-  margin: 0px 5px 20px 0px;
+  margin: 10px 5px 20px 0px;
 }
 
 .contact__number p {
@@ -131,7 +134,7 @@ li a:hover {
 
 /* second section */
 .second__section {
-  background-image: url('../assets/bg.PNG');
+  background-image: url('../assets/bg.jpg');
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: cover;
@@ -208,6 +211,103 @@ li a:hover {
 
 /* FIFTH SECTION */
 .fifth__content {
-  display: ;
+  width: 100%;
+  height: 100%;
   background: #1999ee;
+}
+
+.rates__content {
+  width: 100%;
+  height: 4em;
+  background-color: #ffffff;
+  align-content: center;
+  padding: 1em 1em 0em 1em;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.rates__content p {
+  font-size: 1.5em;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+.form__button {
+  margin: 0 auto;
+}
+
+.form__button .btn-secondary {
+  background: #b94c65;
+  border: 1px solid #b94c65;
+  padding: .7rem 3.5rem;
+  border-radius: .6rem;
+  font-family: 'Playfair Display', serif;
+  color: #f8f9fa;
+}
+
+
+/* seventh */
+.seventh__content {
+  background: #274b74;
+  padding: 0em 0em 5em 0em;
+  color: #ffffff;
+}
+
+.seventh__content .nav__brand {
+  font-family: 'Croissant One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 42px;
+  color: #0568A1; 
+}
+
+.seventh__content .footHead h1{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footHead a {
+  color: #ffffff;
+}
+
+.footHead a:hover {
+  color: #b94c65;
+}
+
+.seventh__content span{
+  font-size: 1rem;
+  padding-left: 1rem;
+  align-self: center;
+}
+
+.seventh__content .flexDiv{
+  margin-top: .8rem;
+}
+
+.footerLink{
+  display: block;
+  text-align: justify;
+  text-decoration: none;
+  color: #fff;
+  padding-top: .5rem;
+}
+
+.socialLink {
+  text-decoration: none;
+  color: #fff;
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+#subscribeBtn{
+  width:fit-content;
+  padding: 1rem 4rem;
+}
+
+footer {
+  font-size: 1.4em;
 }

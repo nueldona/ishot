@@ -53,12 +53,22 @@
   .toggle .line:last-child {
     transform: rotate(45deg) translate(-5px, -6px);
   }
+
+  .rates__content {
+    height: 3em !important;
+    padding: .7em 1em 0em 1em !important;
+  }
+
+  .rates__content p {
+    font-size: 1em !important;
+  }
+  
 }
 
 @media screen and (min-width: 850px) {
   .contact__card {
-    width: 60% !important;
-    padding: 1em 2em;
+    width: 50% !important;
+    /* padding: 1em 2em; */
   }
 
   header {
@@ -76,6 +86,10 @@
   .fifth__content-img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .slider-holder {
+    max-width: 800px !important;
   }
 }
 
@@ -111,5 +125,9 @@
   
   .fourth__section-content h2 {
     font-size: 1em;
+  }
+
+  .hidden .mb-5 {
+    margin-bottom: 0px !important;
   }
 }
